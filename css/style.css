@@ -46,6 +46,7 @@
     --text-secondary: #666;
     --header-bg: #ffffff;
     --main-bg: rgb(248, 248, 248);
+    --text-nav: rgb(126, 126, 130);
 }
 
 /* Базовые стили */
@@ -103,6 +104,7 @@ h6 {
 
 .header__nav-item--middle {
     display: none;
+   
 }
 
 .header__nav-list {
@@ -112,6 +114,7 @@ h6 {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 .header__nav-btn {
@@ -169,6 +172,7 @@ h6 {
     text-decoration: none;
     white-space: nowrap;
     transition: color 0.2s;
+    color: var(--text-nav);
 }
 
 .header-menu__link:hover {
